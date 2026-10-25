@@ -1,5 +1,19 @@
+![Myanmar Keyboard — Voice Typing Keyboard preview](branding/marketing-voice2.jpg)
+
+*Preview poster only — not yet on the App Store or Google Play.*
+
 # Myanmar Keyboard — v0.14.0
 by Min SiThu (itsmeminsithu)
+
+## About
+
+YayParKeyboard is a Myanmar keyboard for iOS and Android, built by Min SiThu.
+
+It provides a Myanmar key layout on both platforms, with an experimental cloud speech-to-text backend. The iOS host app records audio and uploads it when the user taps Stop, and the completed transcript is then inserted into the focused text field. It is not live dictation, and iOS keyboard extensions cannot record microphone audio directly.
+
+The backend is a Python FastAPI prototype that transcribes audio with OpenAI Whisper (`whisper-1`, `my` or `en`), behind a prototype bearer token. That token is not production authentication and must not be embedded in a distributed app.
+
+Current status: v0.15, audited source only. Native iOS/Android builds and on-device testing have not been verified, and the app is not production-ready and not on the App Store or Google Play.
 
 Native iOS/Android keyboard project with an **experimental cloud Myanmar speech recognition** backend. **Not production-ready.**
 
