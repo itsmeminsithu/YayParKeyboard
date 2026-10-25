@@ -1,0 +1,40 @@
+name: YayParKeyboard
+options:
+  bundleIdPrefix: org.minsithu.yaypar
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    IPHONEOS_DEPLOYMENT_TARGET: 16.0
+    TARGETED_DEVICE_FAMILY: "1,2"
+    MARKETING_VERSION: 0.15.0
+    CURRENT_PROJECT_VERSION: 15
+targets:
+  KeyboardApp:
+    type: application
+    platform: iOS
+    sources: [KeyboardApp]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.minsithu.yaypar.KeyboardApp
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Myanmar Keyboard"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "Record speech when you explicitly start voice transcription."
+        INFOPLIST_KEY_ASRServerURL: ""
+        INFOPLIST_KEY_ASRPrototypeToken: ""
+        CODE_SIGN_ENTITLEMENTS: KeyboardApp/KeyboardApp.entitlements
+    dependencies:
+      - target: KeyboardExtension
+        embed: true
+  KeyboardExtension:
+    type: app-extension
+    platform: iOS
+    sources: [KeyboardExtension]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.minsithu.yaypar.KeyboardApp.KeyboardExtension
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: KeyboardExtension/Info.plist
+        EXECUTABLE_NAME: KeyboardExtension
+        CODE_SIGN_ENTITLEMENTS: KeyboardExtension/KeyboardExtension.entitlements

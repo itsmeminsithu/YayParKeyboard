@@ -1,0 +1,28 @@
+# macOS / IDE
+.DS_Store
+.idea/
+*.iml
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+# Android
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+# Credentials / signing
+*.p12
+*.mobileprovision
+*.keystore
+*.jks
+secrets.xcconfig
