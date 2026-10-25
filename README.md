@@ -1,6 +1,4 @@
-![Myanmar Keyboard — iOS and Android preview](branding/marketing-poster.jpg)
-
-*Preview posters only — not yet on the App Store or Google Play.*
+*Preview poster only — not yet on the App Store or Google Play.*
 
 ![Myanmar Keyboard — Voice Typing preview](branding/marketing-voice.jpg)
 
