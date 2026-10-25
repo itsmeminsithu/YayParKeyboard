@@ -1,3 +1,7 @@
+![Myanmar Keyboard — iOS and Android preview](branding/marketing-poster.jpg)
+
+*Preview poster only — not yet on the App Store or Google Play.*
+
 # Myanmar Keyboard — v0.14.0
 by Min SiThu (itsmeminsithu)
 
