@@ -1,8 +1,6 @@
 ![Myanmar Keyboard — Voice Typing Keyboard preview](branding/marketing-voice2.jpg)
 
-*Preview posters only — not yet on the App Store or Google Play.*
-
-![Myanmar Keyboard — Voice Typing preview](branding/marketing-voice.jpg)
+*Preview poster only — not yet on the App Store or Google Play.*
 
 # Myanmar Keyboard — v0.14.0
 by Min SiThu (itsmeminsithu)
